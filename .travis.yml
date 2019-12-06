@@ -1,0 +1,9 @@
+language: node_js
+node_js: --lts
+before_script:
+  - git config user.name "XiaoYuxuan"
+  - git config user.email "qpalwo@qq.com"
+  - sed -i'' "s~https://github.com/qpalwo/blog.git~https://${GITHUB_ACCESS_TOKEN}@github.com/qpalwo/blog.git~" _config.yml
+script:
+  - hexo --cwd docs g
+  - hexo --cwd docs d
