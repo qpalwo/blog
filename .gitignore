@@ -1,2 +1,4 @@
 *.un~
 *~
+docs/public
+docs/public/*
