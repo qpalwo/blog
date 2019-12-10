@@ -100,7 +100,7 @@ deploy:
   branch: master
 - type: aliyun
   bucket: xyx-blog
-  region: beijin
+  region: oss-cn-beijin
   accessKeyId: LTAI4FjXsesRyDUpaDneGLuB
   accessKeySecret: xBdvFeYuftXkQkurJADkKOU7ey1e28
               
