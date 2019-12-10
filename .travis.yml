@@ -6,7 +6,7 @@ install:
   - cd docs
   - npm install
   - npm install hexo-deployer-git --save
-  - npm install hexo-deployer-aliyun --save
+  - npm install hexo-all-minifier --save
   - npm install hexo-symbols-count-time
   - cd ..
 before_script:
