@@ -7,6 +7,7 @@ install:
   - npm install
   - npm install hexo-deployer-git --save
   - npm install hexo-deployer-aliyun --save
+  - npm install hexo-symbols-count-time
   - cd ..
 before_script:
   - git config user.name "XiaoYuxuan"
@@ -16,4 +17,5 @@ script:
   - hexo --cwd docs clean
   - hexo --cwd docs g
   - echo 'blog.stdxyx.com' > docs/public/CNAME
+  - echo 'https://xyx-blog.netlify.com/* https://blog.stdxyx.com/:splat 301!' > docs/public/_redirects
   - hexo --cwd docs d
