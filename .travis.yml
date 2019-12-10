@@ -6,6 +6,7 @@ install:
   - cd docs
   - npm install
   - npm install hexo-deployer-git --save
+  - npm install hexo-deployer-aliyun --save
   - cd ..
 before_script:
   - git config user.name "XiaoYuxuan"

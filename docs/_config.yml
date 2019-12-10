@@ -95,6 +95,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+- type: 'git'
   repo: https://github.com/qpalwo/blog.git
   branch: master
+- type: aliyun
+  bucket: xyx-blog
+  region: beijin
+  accessKeyId: LTAI4FjXsesRyDUpaDneGLuB
+  accessKeySecret: xBdvFeYuftXkQkurJADkKOU7ey1e28
+              
