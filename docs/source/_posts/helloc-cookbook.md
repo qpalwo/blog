@@ -1,13 +1,11 @@
 ---
-title: hello-cookbook
+title: 如何完成一个简单的玩具编译器（flex+bison+LLVM）
 date: 2019-12-10 14:49:55
 tags: compile
 
 ---
 
-
-
-# 玩具编译器 cookbook
+## WIP
 
 ## 背景
 

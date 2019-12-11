@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: xyx
-subtitle: ''
-description: ''
+title: xyx'blog
+subtitle: '计算机世界探索录'
+description: '学习计算机科学过程中的点滴'
 keywords: Android,Java
 author: xyx
-language: zh
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -18,7 +18,7 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: false # Set to false to remove trailing index.html from permalinks
 
 # Directory
 source_dir: source
